@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Meet the DevFusion team, learn about our values, tools, and the people behind the projects."
+    />
+    <title>DevFusion | About Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="about">
+    <div class="backdrop backdrop-a"></div>
+    <div class="backdrop backdrop-b"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">
+          <img src="DevFusion.png" alt="DevFusion logo" />
+        </span>
+        <span>
+          <strong>DevFusion</strong>
+          <small>AI. ML. Build. Ship.</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About us</p>
+          <h1>AI/ML Specialists Building Practical Products.</h1>
+          <p>
+            DevFusion represents the work of Dushyant and Manul Sahu. Our core strength is AI, machine learning, and
+            deep learning. We also build software, Android apps, and web products for hackathons and personal practice.
+          </p>
+        </div>
+
+        <div class="grid cards-2 metrics-grid reveal delay-1" id="about-metrics"></div>
+      </section>
+
+      <section class="section section-split">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Mission</p>
+          <h2>Turn applied AI ideas into deployable products with strong software foundations.</h2>
+        </div>
+        <div class="grid cards-2">
+          <article class="info-card reveal">
+            <h3>Primary track</h3>
+            <p>
+              AI, machine learning, deep learning, predictive modeling, and practical data products.
+            </p>
+          </article>
+          <article class="info-card reveal delay-1">
+            <h3>Secondary track</h3>
+            <p>
+              Software engineering, Android apps, web development, and hackathon-ready MVP execution.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Team members</p>
+          <h2>The people behind DevFusion.</h2>
+        </div>
+        <div id="member-stories"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>DevFusion</p>
+      <p>Copyright &copy; <span data-year></span> DevFusion. All rights reserved.</p>
+    </footer>
+
+    <script src="site-data.js"></script>
+    <script src="site.js"></script>
+  </body>
+</html>

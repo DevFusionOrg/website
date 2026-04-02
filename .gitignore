@@ -1,0 +1,9 @@
+.venv/
+CV-Dushyant.pdf.txt
+CV-Manul.pdf.txt
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.DS_Store
+Thumbs.db
